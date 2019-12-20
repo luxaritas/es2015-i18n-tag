@@ -288,7 +288,7 @@ declare module 'es2015-i18n-tag' {
     }
 
     interface Group {
-        new (...args): GroupClass;
+        new (...args: any): GroupClass;
         prototype: GroupClass;
     }
 }

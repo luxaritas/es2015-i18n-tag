@@ -26,6 +26,7 @@ work
 build
 typings
 lib
+!/dist/lib
 test
 pids
 logs
